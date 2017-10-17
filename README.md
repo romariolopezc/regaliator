@@ -22,8 +22,6 @@ Add the following to config/initializers/regaliator.rb:
 
 ```ruby
 Regaliator.configure do |config|
-  # Version target
-
   # Authentication settings
   config.api_key      = 'your-api-key'
   config.secret_key   = 'your-secret-key'
