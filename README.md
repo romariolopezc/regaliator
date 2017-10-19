@@ -1,10 +1,6 @@
 # Regaliator
 
-Ruby wrapper for Regalii's API. The full API docs:
-  * Version 3.2 (recommended): https://www.regalii.com/api/v3;
-  * Version 3.1 : https://www.regalii.com/api/v3;
-  * Version 3.0 : https://www.regalii.com/api/v3;
-  * Version 1.5 : https://www.regalii.com/api/v1
+Ruby wrapper for Regalii's API v1.5. The full [API docs](https://www.regalii.com/api/v1)
 
 ## Installation
 
@@ -26,9 +22,6 @@ Add the following to config/initializers/regaliator.rb:
 
 ```ruby
 Regaliator.configure do |config|
-  # Version target
-  config.version      = '3.1'
-
   # Authentication settings
   config.api_key      = 'your-api-key'
   config.secret_key   = 'your-secret-key'
@@ -37,7 +30,6 @@ Regaliator.configure do |config|
   config.host         = 'api.casiregalii.com'
   config.open_timeout = 5
   config.read_timeout = 60
-  config.use_ssl      = true
 
   # Proxy settings
   config.proxy_host   = nil
@@ -47,21 +39,9 @@ Regaliator.configure do |config|
 end
 ```
 
-## Versions
+## Version
 
-To switch the version API, you have just to set the version in the configuration,
-for instance, the version `1.5`:
-
-```ruby
-Regaliator.configure do |config|
-  # Version target
-  config.version = '1.5'
-
-  # ...
-end
-```
-
-The available versions are: `1.5`, `3.0`, `3.1` and `3.2`(recommended).
+This gem is configured to work with version `1.5`
 
 ## Requests
 
@@ -108,10 +88,4 @@ response = Regaliator.biller.utilities
 To run the tests, run:
 ```
 $ bundle exec rake test
-```
-
-To test on each file change, run:
-
-```
-$ bundle exec guard
 ```
