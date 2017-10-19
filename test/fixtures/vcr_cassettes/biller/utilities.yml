@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/billers/utilities
+    uri: https://api.regalii.dev/billers/utilities
     body:
       encoding: UTF-8
       string: "{}"
@@ -606,6 +606,6 @@ http_interactions:
         Energy","country":"US","currency":"USD","biller_type":"Electricity","bill_type":"account_number","can_check_balance":false,"mask":null,"requires_name_on_account":false,"supports_partial_payments":true,"hours_to_fulfill":72,"account_number_digits":null,"has_xdata":false},{"id":1711,"name":"Yego","country":"GT","currency":"GTQ","biller_type":"Internet","bill_type":"account_number","can_check_balance":false,"mask":null,"requires_name_on_account":false,"supports_partial_payments":true,"hours_to_fulfill":0,"account_number_digits":null,"has_xdata":false},{"id":6204,"name":"YES
         Energy Mgmt.","country":"US","currency":"USD","biller_type":"Utilities","bill_type":"account_number","can_check_balance":false,"mask":null,"requires_name_on_account":false,"supports_partial_payments":true,"hours_to_fulfill":72,"account_number_digits":null,"has_xdata":false},{"id":12556,"name":"Yves
         Rocher","country":"MX","currency":"MXN","biller_type":"Media Subscription","bill_type":"account_number","can_check_balance":false,"mask":null,"requires_name_on_account":false,"supports_partial_payments":false,"hours_to_fulfill":null,"account_number_digits":"15","has_xdata":false},{"id":12537,"name":"Zacatecas","country":"MX","currency":"MXN","biller_type":"Government","bill_type":"bar_code","can_check_balance":false,"mask":null,"requires_name_on_account":false,"supports_partial_payments":true,"hours_to_fulfill":null,"account_number_digits":"28","has_xdata":false}]}'
-    http_version: 
+    http_version:
   recorded_at: Sat, 14 Jan 2017 03:21:25 GMT
 recorded_with: VCR 2.9.3

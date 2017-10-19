@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/bill/check
+    uri: https://api.regalii.dev/bill/check
     body:
       encoding: UTF-8
       string: '{"biller_id":9,"account_number":"6463060086","amount":50}'
@@ -47,6 +47,6 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"topup_amount_received":1800.0,"bonus_amount_received":0.0,"total_amount_received":1800.0,"topup_fx_rate":40.0,"biller_promotions":[],"phone_number_biller_id":null,"biller_currency_iso":"DOP"}'
-    http_version: 
+    http_version:
   recorded_at: Sat, 14 Jan 2017 03:12:56 GMT
 recorded_with: VCR 2.9.3

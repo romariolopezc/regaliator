@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/bills
+    uri: https://api.regalii.dev/bills
     body:
       encoding: UTF-8
       string: "{}"
@@ -171,6 +171,6 @@ http_interactions:
         Kelvin.                  ","due_date":"2015-07-02T04:00:00Z","created_at":"2014-08-03T00:15:35Z","updated_at":"2015-06-21T09:00:25Z","last_paid_at":null,"customer":{"unique_id":null,"phone":"6463779451"}},{"biller_id":7,"account_number":"8095731445","current_balance":0.0,"balance_currency":"RD","balance_updated_at":"2015-06-21T09:00:21Z","name_on_account":"Amarilis  Valdez
         Fernandez     ","due_date":"2015-07-05T04:00:00Z","created_at":"2014-08-03T00:15:50Z","updated_at":"2015-06-21T09:00:21Z","last_paid_at":null,"customer":{"unique_id":null,"phone":"9730125544"}},{"biller_id":2,"account_number":"5236043","current_balance":null,"balance_currency":"RD","balance_updated_at":"2015-03-02T06:10:52Z","name_on_account":"Elizabeth
         Salce Castillo","due_date":"2015-02-25T04:00:00Z","created_at":"2014-08-04T14:37:30Z","updated_at":"2015-03-05T06:26:25Z","last_paid_at":null,"customer":{"unique_id":null,"phone":"6465420011"}}]}'
-    http_version: 
+    http_version:
   recorded_at: Sat, 14 Jan 2017 03:12:57 GMT
 recorded_with: VCR 2.9.3

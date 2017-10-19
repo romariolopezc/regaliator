@@ -30,7 +30,6 @@ Regaliator.configure do |config|
   config.host         = 'api.casiregalii.com'
   config.open_timeout = 5
   config.read_timeout = 60
-  config.use_ssl      = true
 
   # Proxy settings
   config.proxy_host   = nil

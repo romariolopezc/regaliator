@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/bill/pay
+    uri: https://api.regalii.dev/bill/pay
     body:
       encoding: UTF-8
       string: '{"biller_id":14,"account_number":"6463060086","user_id":12981,"amount":99,"currency":"DOP"}'

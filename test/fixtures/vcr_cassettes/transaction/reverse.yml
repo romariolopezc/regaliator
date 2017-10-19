@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/transaction/reverse
+    uri: https://api.regalii.dev/transaction/reverse
     body:
       encoding: UTF-8
       string: '{"id":1}'
@@ -47,6 +47,6 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"code":"R0","message":"Transaction successful"}'
-    http_version: 
+    http_version:
   recorded_at: Mon, 16 Jan 2017 18:11:51 GMT
 recorded_with: VCR 2.9.3

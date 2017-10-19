@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/rates
+    uri: https://api.regalii.dev/rates
     body:
       encoding: UTF-8
       string: "{}"
@@ -47,6 +47,6 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"GBP":0.7892,"CAD":1.3171,"MXN":20.2181,"RD":45.3925,"NIO":28.5876,"GTQ":7.3642,"HNL":22.7156,"COP":3088.617,"BRL":3.325,"PEN":3.3473,"BOB":6.7776,"PHP":48.7303,"INR":67.2249,"JMD":126.5856,"NGN":308.4099}'
-    http_version: 
+    http_version:
   recorded_at: Sat, 14 Jan 2017 03:18:06 GMT
 recorded_with: VCR 2.9.3

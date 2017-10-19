@@ -7,7 +7,6 @@ module Regaliator
         config.api_key    = 'testing'
         config.secret_key = 'testing'
         config.host       = 'api.regalii.dev'
-        config.use_ssl    = false
       end
     end
 

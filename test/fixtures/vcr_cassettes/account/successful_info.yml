@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://api.regalii.dev/account
+    uri: https://api.regalii.dev/account
     body:
       encoding: UTF-8
       string: "{}"
@@ -47,6 +47,6 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"name":"Regalii","balance":1797.41,"minimum_balance":-2000.0,"currency":"USD"}'
-    http_version: 
+    http_version:
   recorded_at: Sat, 14 Jan 2017 03:12:57 GMT
 recorded_with: VCR 2.9.3

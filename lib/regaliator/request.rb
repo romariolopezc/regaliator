@@ -41,8 +41,7 @@ module Regaliator
     private
 
     def build_uri
-      protocol = config.secure? ? 'https' : 'http'
-      url = ["#{protocol}://#{config.host}", endpoint].join
+      url = ["https://#{config.host}", endpoint].join
       URI.parse(url)
     end
 
@@ -54,7 +53,7 @@ module Regaliator
 
       http.read_timeout = config.read_timeout
       http.open_timeout = config.open_timeout
-      http.use_ssl      = config.secure?
+      http.use_ssl      = true
 
       http
     end
